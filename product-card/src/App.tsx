@@ -18,7 +18,7 @@ export default function App() {
   const sofaSource = isSpinEnabled ? animatedSofa : staticSofa
   return (
     <main className='flex bg-rose h-screen gap-3 justify-center'>
-      <section className='flex flex-col justify-center fit-content bg-white'>
+      <section className='flex flex-col justify-center fit-content'>
         <button className='self-end mr-12 h-6 w-fit' onClick={toggleSpinStatus}>
           <img src={iconSource} />
         </button>
@@ -33,7 +33,7 @@ export default function App() {
           <h1 className='text-[2rem] font-heading font-semibold'>Sofá Margot II - Rosé</h1>
           <span className='font-lato leading-4 text-base text-purple'>R$ 4.000 </span>
         </div>
-        <button className='fit-content border rounded-full px-4 py-2 mt-5 w-fit text-xs font-lato text-purple uppercase'>
+        <button className='fit-content border border-purple rounded-full px-4 py-2 mt-5 w-fit text-xs font-lato text-purple uppercase hover:bg-purple hover:text-zinc-100'>
           Adicionar à Cesta
         </button>
       </section>

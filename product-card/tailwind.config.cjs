@@ -4,16 +4,17 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    colors: {
-      'rose': '#D9CDF7',
-      'purple': '#271A45',
-    },
+  theme: {   
     fontFamily: {
       'heading': ['Crimson Pro'],
       'lato': ['Lato']
     },
-    extend: {},
+    extend: {
+      colors: {
+        'rose': '#D9CDF7',
+        'purple': '#271A45',
+      },
+    },
   },
   plugins: [],
 }
